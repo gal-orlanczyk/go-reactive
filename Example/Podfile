@@ -1,0 +1,22 @@
+use_frameworks!
+
+target 'GoReactive_Example' do
+  pod 'GoReactive', :path => '../'
+
+  target 'GoReactive_Tests' do
+    inherit! :search_paths
+    pod 'GoReactive', :path => '../'
+  end
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    if target.name == 'GoReactive'
+      target.build_configurations.each do |config|
+        if config.name == 'Debug'
+          config.build_settings['OTHER_SWIFT_FLAGS'] ||= ['-D', 'TRACE_REFERENCE_COUNT']
+        end
+      end
+    end
+  end
+end
