@@ -1,6 +1,6 @@
 # GoReactive - Work in Progress
 
-[![CI Status](https://img.shields.io/travis/Gal Orlanczyk/GoReactive.svg?style=flat)](https://travis-ci.org/Gal Orlanczyk/GoReactive)
+[![Build Status](https://travis-ci.org/gal-orlanczyk/go-reactive.svg?branch=develop)](https://travis-ci.org/gal-orlanczyk/go-reactive)
 [![Version](https://img.shields.io/cocoapods/v/GoReactive.svg?style=flat)](https://cocoapods.org/pods/GoReactive)
 [![License](https://img.shields.io/cocoapods/l/GoReactive.svg?style=flat)](https://cocoapods.org/pods/GoReactive)
 [![Platform](https://img.shields.io/cocoapods/p/GoReactive.svg?style=flat)](https://cocoapods.org/pods/GoReactive)
