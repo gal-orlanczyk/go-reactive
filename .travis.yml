@@ -6,7 +6,10 @@ osx_image: xcode10.1
 language: objective-c
 cache: cocoapods
 podfile: Example/Podfile
-xcode_project: Example/GoReactive.xcodeproj # path to your xcodeproj folder
+xcode_workspace: Example/GoReactive.xcworkspace
+xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
+xcode_scheme: GoReactive_Tests
+xcode_sdk: iphonesimulator12.1
 
 env:
   global:
@@ -20,5 +23,5 @@ before_install:
   - pod install --project-directory=Example
 script:
 - set -o pipefail
-- xcodebuild test -enableCodeCoverage YES -workspace Example/GoReactive.xcworkspace -destination "$DESTINATION" -scheme "$SCHEME" -sdk "$SDK" ONLY_ACTIVE_ARCH=NO | xcpretty -c
+#- xcodebuild test -enableCodeCoverage YES -workspace xcode_workspace -destination xcode_destination -scheme "$SCHEME" -sdk "$SDK" ONLY_ACTIVE_ARCH=NO | xcpretty -c
 - pod lib lint --verbose
