@@ -57,7 +57,7 @@
         <!--Simple View Controller Bindings-->
         <scene sceneID="dga-Bb-05l">
             <objects>
-                <tableViewController id="RQf-zG-Tp8" customClass="SimpleBindingsViewController" customModule="GoReactive_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="SimpleBindingsViewController" id="RQf-zG-Tp8" customClass="SimpleBindingsViewController" customModule="GoReactive_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="Jz1-07-2a4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -15,6 +15,7 @@
 		0D0E71AB21D6A207000E4936 /* ReactiveComponentUIButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E71A121D69EE1000E4936 /* ReactiveComponentUIButtonTests.swift */; };
 		0D0E71AC21D6A20A000E4936 /* ReactiveComponentUILabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E71A021D69EE1000E4936 /* ReactiveComponentUILabelTests.swift */; };
 		0D0E71AD21D6A20F000E4936 /* ReactiveComponentUIControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E719F21D69EE1000E4936 /* ReactiveComponentUIControlTests.swift */; };
+		0D3DB77D21F3305E00F89E59 /* SimpleBindingsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DB77C21F3305E00F89E59 /* SimpleBindingsViewControllerTests.swift */; };
 		30DFF8392A427330D2616C93 /* Pods_GoReactive_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3227A5E200126F55E79470 /* Pods_GoReactive_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* SimpleBindingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* SimpleBindingsViewController.swift */; };
@@ -43,6 +44,7 @@
 		0D0E71A521D69EFD000E4936 /* ReactiveComponentUISwitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveComponentUISwitchTests.swift; sourceTree = "<group>"; };
 		0D0E71A721D69F1A000E4936 /* ReactiveComponentUITextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveComponentUITextFieldTests.swift; sourceTree = "<group>"; };
 		0D0E71A921D69F30000E4936 /* ReactiveComponentUIViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveComponentUIViewTests.swift; sourceTree = "<group>"; };
+		0D3DB77C21F3305E00F89E59 /* SimpleBindingsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SimpleBindingsViewControllerTests.swift; path = AppTests/SimpleBindingsViewControllerTests.swift; sourceTree = "<group>"; };
 		1FA0AAB88E275F1F210EDA5D /* Pods_GoReactive_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoReactive_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B50300CEE8330ECBDAC4E96 /* Pods-GoReactive_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoReactive_Tests.release.xcconfig"; path = "Target Support Files/Pods-GoReactive_Tests/Pods-GoReactive_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5EBE6895DCF229043614BA01 /* Pods-GoReactive_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoReactive_Example.release.xcconfig"; path = "Target Support Files/Pods-GoReactive_Example/Pods-GoReactive_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +114,14 @@
 			path = ReactiveComponents;
 			sourceTree = "<group>";
 		};
+		0D3DB77B21F3303000F89E59 /* AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D3DB77C21F3305E00F89E59 /* SimpleBindingsViewControllerTests.swift */,
+			);
+			name = AppTests;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +168,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				0D3DB77B21F3303000F89E59 /* AppTests */,
 				0D0E719E21D69EE1000E4936 /* ReactiveComponents */,
 				0D0E719421D5EAEC000E4936 /* Subjects */,
 				0D0E718F21D524D5000E4936 /* ObservablesTests */,
@@ -414,6 +425,7 @@
 				0D0E71AD21D6A20F000E4936 /* ReactiveComponentUIControlTests.swift in Sources */,
 				0D0E71A821D69F1A000E4936 /* ReactiveComponentUITextFieldTests.swift in Sources */,
 				0D0E71A621D69EFD000E4936 /* ReactiveComponentUISwitchTests.swift in Sources */,
+				0D3DB77D21F3305E00F89E59 /* SimpleBindingsViewControllerTests.swift in Sources */,
 				0D0E719121D52576000E4936 /* ObservableContainerTests.swift in Sources */,
 				0D0E71AB21D6A207000E4936 /* ReactiveComponentUIButtonTests.swift in Sources */,
 				0D0E71AC21D6A20A000E4936 /* ReactiveComponentUILabelTests.swift in Sources */,

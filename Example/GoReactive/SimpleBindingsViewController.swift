@@ -38,8 +38,8 @@ class SimpleBindingsViewController: UITableViewController {
             .bind(to: self.bindableLabel.reactiveComponent.text)
             .add(to: self.cancelableGroup)
         
-        self.changeTextButton.reactiveComponent.touchUpInside.subscribe(onNext: {
-            self.viewModel.bindableLabelProperty.value = "\(Int.random(in: 0 ... 10000000))"
+        self.changeTextButton.reactiveComponent.touchUpInside.subscribe(onNext: { [weak self] in
+            self?.viewModel.bindableLabelProperty.value = "\(Int.random(in: 0 ... 10000000))"
         }).add(to: self.cancelableGroup)
         
         // can be written also from the second way because this is bidirectional...
@@ -51,12 +51,13 @@ class SimpleBindingsViewController: UITableViewController {
             .bind(to: self.bindableTextFieldLabel.reactiveComponent.text)
             .add(to: self.cancelableGroup)
         
-        self.clearTextFieldButton.reactiveComponent.touchUpInside.subscribe(onNext: {
-            self.viewModel.bindableTextFieldProperty.value = ""
+        self.clearTextFieldButton.reactiveComponent.touchUpInside.subscribe(onNext: { [weak self] in
+            self?.viewModel.bindableTextFieldProperty.value = ""
         }).add(to: self.cancelableGroup)
     }
     
     deinit {
+        print("deinit \(String(describing: type(of: self)))")
         self.cancelableGroup.cancel()
     }
 }
