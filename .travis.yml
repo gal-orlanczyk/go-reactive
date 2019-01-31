@@ -11,24 +11,12 @@ xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
 xcode_scheme: GoReactive_Tests
 xcode_sdk: iphonesimulator12.1
 
-env:
-  global:
-    - IOS_SCHEME="GoReactive_Tests"
-    - IOS_SDK=iphonesimulator12.1
-  matrix:
-    - DESTINATION="OS=12.1,name=iPhone 8" SCHEME="$IOS_SCHEME" SDK="$IOS_SDK"
-
 before_install:
   - gem install cocoapods # Since Travis is not always on latest version
   - pod install --project-directory=Example
 script:
   - env
   - set -o pipefail
-  #- xcodebuild test -enableCodeCoverage YES -workspace xcode_workspace -destination xcode_destination -scheme "$SCHEME" -sdk "$SDK" ONLY_ACTIVE_ARCH=NO | xcpretty -c
-  - echo "$TRAVIS_XCODE_WORKSPACE"
-  - echo "$TRAVIS_XCODE_DESTINATION"
-  - echo "$TRAVIS_XCODE_SCHEME"
-  - echo "$TRAVIS_XCODE_SDK"
-  - echo xcodebuild test -enableCodeCoverage YES -workspace -destination -scheme -sdk ONLY_ACTIVE_ARCH=NO | xcpretty -c
-  - xcodebuild test -enableCodeCoverage YES -workspace -destination -scheme -sdk ONLY_ACTIVE_ARCH=NO | xcpretty -c
+  - echo xcodebuild -enableCodeCoverage YES -workspace "$TRAVIS_XCODE_WORKSPACE" -destination "$TRAVIS_XCODE_DESTINATION" -scheme "$TRAVIS_XCODE_SCHEME" -sdk "$TRAVIS_XCODE_SDK" test ONLY_ACTIVE_ARCH=NO | xcpretty -c
+  - xcodebuild -enableCodeCoverage YES -workspace "$TRAVIS_XCODE_WORKSPACE" -destination "$TRAVIS_XCODE_DESTINATION" -scheme "$TRAVIS_XCODE_SCHEME" -sdk "$TRAVIS_XCODE_SDK" test ONLY_ACTIVE_ARCH=NO | xcpretty -c
   - pod lib lint --verbose
