@@ -6,18 +6,17 @@ osx_image: xcode10.1
 language: objective-c
 cache: cocoapods
 podfile: Example/Podfile
-
-env:
-  global:
-    - IOS_SCHEME="GoReactive_Tests"
-    - IOS_SDK=iphonesimulator12.1
-  matrix:
-    - DESTINATION="OS=12.1,name=iPhone 8" SCHEME="$IOS_SCHEME" SDK="$IOS_SDK"
+xcode_workspace: Example/GoReactive.xcworkspace
+xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
+xcode_scheme: GoReactive_Tests
+xcode_sdk: iphonesimulator12.1
 
 before_install:
-  - gem install cocoapods # Since Travis is not always on latest version
+  - gem install cocoapods --pre # Since Travis is not always on latest version
   - pod install --project-directory=Example
 script:
-- set -o pipefail
-- xcodebuild test -enableCodeCoverage YES -workspace Example/GoReactive.xcworkspace -destination "$DESTINATION" -scheme "$SCHEME" -sdk "$SDK" ONLY_ACTIVE_ARCH=NO | xcpretty -c
-- pod lib lint --verbose
+  - env
+  - set -o pipefail
+  - echo xcodebuild -enableCodeCoverage YES -workspace "$TRAVIS_XCODE_WORKSPACE" -destination "$TRAVIS_XCODE_DESTINATION" -scheme "$TRAVIS_XCODE_SCHEME" -sdk "$TRAVIS_XCODE_SDK" test ONLY_ACTIVE_ARCH=NO | xcpretty -c
+  - xcodebuild -enableCodeCoverage YES -workspace "$TRAVIS_XCODE_WORKSPACE" -destination "$TRAVIS_XCODE_DESTINATION" -scheme "$TRAVIS_XCODE_SCHEME" -sdk "$TRAVIS_XCODE_SDK" test ONLY_ACTIVE_ARCH=NO | xcpretty -c
+  - pod lib lint --verbose
