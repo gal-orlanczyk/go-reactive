@@ -14,18 +14,17 @@ xcode_sdk: iphonesimulator12.1
 before_install:
   - gem install cocoapods --pre # Since Travis is not always on latest version
   - pod install --project-directory=Example
-script:
-  - env
-  - set -o pipefail
 stages:
+  - tests
   - name: pod_lint
     if: type = pull_request
 jobs:
   include:
-    - stage: "Build & Tests"
+    - stage: tests
+      name: "Build+Tests"
       script:
-        -  echo xcodebuild -enableCodeCoverage YES -workspace "$TRAVIS_XCODE_WORKSPACE" -destination "$TRAVIS_XCODE_DESTINATION" -scheme "$TRAVIS_XCODE_SCHEME" -sdk "$TRAVIS_XCODE_SDK" test ONLY_ACTIVE_ARCH=NO | xcpretty -c
+        - echo xcodebuild -enableCodeCoverage YES -workspace "$TRAVIS_XCODE_WORKSPACE" -destination "$TRAVIS_XCODE_DESTINATION" -scheme "$TRAVIS_XCODE_SCHEME" -sdk "$TRAVIS_XCODE_SDK" test ONLY_ACTIVE_ARCH=NO | xcpretty -c
         - xcodebuild -enableCodeCoverage YES -workspace "$TRAVIS_XCODE_WORKSPACE" -destination "$TRAVIS_XCODE_DESTINATION" -scheme "$TRAVIS_XCODE_SCHEME" -sdk "$TRAVIS_XCODE_SDK" test ONLY_ACTIVE_ARCH=NO | xcpretty -c
     - stage: pod_lint
-      name: "Pod Lint"
+      name: "PodLint"
       script: if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then pod lib lint --verbose; fi
