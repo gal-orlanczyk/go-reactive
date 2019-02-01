@@ -1,0 +1,16 @@
+PODS:
+  - GoReactive (0.1.0)
+
+DEPENDENCIES:
+  - GoReactive (from `../`)
+
+EXTERNAL SOURCES:
+  GoReactive:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GoReactive: 38a2b37de88947b97b659034ea4e8750f608287c
+
+PODFILE CHECKSUM: 348804ce2596aab13e7525a376e143962f8ba527
+
+COCOAPODS: 1.6.0.beta.2
