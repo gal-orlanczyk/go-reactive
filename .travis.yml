@@ -6,7 +6,6 @@ osx_image: xcode10.1
 language: objective-c
 cache: cocoapods
 podfile: Example/Podfile
-xcode_project: Example/GoReactive.xcodeproj
 xcode_workspace: Example/GoReactive.xcworkspace
 xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
 xcode_scheme: GoReactive_Tests
@@ -20,7 +19,4 @@ script:
   - set -o pipefail
   - echo xcodebuild -enableCodeCoverage YES -workspace "$TRAVIS_XCODE_WORKSPACE" -destination "$TRAVIS_XCODE_DESTINATION" -scheme "$TRAVIS_XCODE_SCHEME" -sdk "$TRAVIS_XCODE_SDK" test ONLY_ACTIVE_ARCH=NO | xcpretty -c
   - xcodebuild -enableCodeCoverage YES -workspace "$TRAVIS_XCODE_WORKSPACE" -destination "$TRAVIS_XCODE_DESTINATION" -scheme "$TRAVIS_XCODE_SCHEME" -sdk "$TRAVIS_XCODE_SDK" test ONLY_ACTIVE_ARCH=NO | xcpretty -c
-  # - slather coverage -s --scheme "$TRAVIS_XCODE_SCHEME" --workspace "$TRAVIS_XCODE_WORKSPACE" --build-directory "$TRAVIS_BUILD_DIR" "$TRAVIS_XCODE_PROJECT"
   - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then pod lib lint --verbose; fi
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
