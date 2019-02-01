@@ -34,8 +34,8 @@ class SimpleBindingsViewController: UITableViewController {
     }
 
     func setupBindings() {
-        self.viewModel.bindableLabelProperty
-            .bind(to: self.bindableLabel.reactiveComponent.text)
+        self.bindableLabel.reactiveComponent.text
+            .bind(from: self.viewModel.bindableLabelProperty)
             .add(to: self.cancelableGroup)
         
         self.changeTextButton.reactiveComponent.touchUpInside.subscribe(onNext: { [weak self] in

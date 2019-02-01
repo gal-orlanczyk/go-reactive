@@ -31,6 +31,14 @@ public protocol ObservableProtocol: Bindable {
     static func create(with subscriptionHandler: @escaping SubscriptionHandler<Element>) -> Observable<Element>
 }
 
+/// Defines comformance of `Observable` object to bindable by subscribe to the observer.
+public extension ObservableProtocol {
+    
+    func bind<O: ObserverProtocol>(to observer: O) -> Cancelable where O.Element == Element {
+        return self.subscribe(observer)
+    }
+}
+
 public extension ObservableProtocol {
     
     static func create(with subscriptionHandler: @escaping SubscriptionHandler<Element>) -> Observable<Element> {

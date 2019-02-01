@@ -1,0 +1,530 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/Bindable.swift",
+      "line": 12,
+      "symbol": "Bindable.Element",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/Cancelable.swift",
+      "line": 12,
+      "symbol": "Cancelable.cancel()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/Cancelable.swift",
+      "line": 47,
+      "symbol": "CancelableGroup.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/Cancelable.swift",
+      "line": 55,
+      "symbol": "CancelableGroup.add(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/Cancelable.swift",
+      "line": 59,
+      "symbol": "CancelableGroup.cancel()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/Observable.swift",
+      "line": 19,
+      "symbol": "Observable.asObservable()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/ObservableProtocol.swift",
+      "line": 48,
+      "symbol": "ObservableProtocol.subscribe(on:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/ObservableProtocol.swift",
+      "line": 61,
+      "symbol": "ObservableProtocol.subscribe(onNext:onError:onCompleted:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/Observer.swift",
+      "line": 21,
+      "symbol": "Event.next(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/Observer.swift",
+      "line": 22,
+      "symbol": "Event.error(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/Observer.swift",
+      "line": 23,
+      "symbol": "Event.completed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/Observer.swift",
+      "line": 26,
+      "symbol": "EventHandler",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/Observer.swift",
+      "line": 35,
+      "symbol": "Observer.init(eventHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/Observer.swift",
+      "line": 39,
+      "symbol": "Observer.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/Observer.swift",
+      "line": 47,
+      "symbol": "Observer.asObserver()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/ObserverProtocol.swift",
+      "line": 30,
+      "symbol": "ObserverProtocol.onNext(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/ObserverProtocol.swift",
+      "line": 34,
+      "symbol": "ObserverProtocol.onCompleted()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/ObserverProtocol.swift",
+      "line": 38,
+      "symbol": "ObserverProtocol.onError(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/Observers.swift",
+      "line": 16,
+      "symbol": "Observers.insert(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/Observers.swift",
+      "line": 22,
+      "symbol": "Observers.remove(uid:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/Observers.swift",
+      "line": 28,
+      "symbol": "Observers.removeAll()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/Observers.swift",
+      "line": 32,
+      "symbol": "Observers.items",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Core/Subject.swift",
+      "line": 15,
+      "symbol": "Bindable.bidirectionalBind(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/Binders/BidirectionalBinder.swift",
+      "line": 10,
+      "symbol": "BidirectionalControlBinder",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/Binders/BidirectionalBinder.swift",
+      "line": 12,
+      "symbol": "BidirectionalControlBinder.on(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/Binders/BidirectionalBinder.swift",
+      "line": 26,
+      "symbol": "BidirectionalBinder.init(observable:observer:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/Binders/Binder.swift",
+      "line": 10,
+      "symbol": "Binder",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/Binders/Binder.swift",
+      "line": 12,
+      "symbol": "Binder.Target",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/Binders/Binder.swift",
+      "line": 18,
+      "symbol": "Binder.init(target:setter:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/Binders/Binder.swift",
+      "line": 35,
+      "symbol": "Binder.asObserver()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/Components/ReactiveComponent+UIButton.swift",
+      "line": 12,
+      "symbol": "ReactiveComponent.touchUpInside",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/Components/ReactiveComponent+UIButton.swift",
+      "line": 16,
+      "symbol": "ReactiveComponent.title(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/Components/ReactiveComponent+UIButton.swift",
+      "line": 22,
+      "symbol": "ReactiveComponent.attributedTitle(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/Components/ReactiveComponent+UIControl.swift",
+      "line": 12,
+      "symbol": "ReactiveComponent.isEnabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/Components/ReactiveComponent+UIControl.swift",
+      "line": 21,
+      "symbol": "ReactiveComponent.editableBidirectionalControlBinder(getter:setter:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/Components/ReactiveComponent+UIControl.swift",
+      "line": 26,
+      "symbol": "ReactiveComponent.bidirectionalControlBinder(for:getter:setter:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/Components/ReactiveComponent+UIControl.swift",
+      "line": 48,
+      "symbol": "ReactiveComponent.controlObservable(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/Components/ReactiveComponent+UILabel.swift",
+      "line": 12,
+      "symbol": "ReactiveComponent.text",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/Components/ReactiveComponent+UILabel.swift",
+      "line": 18,
+      "symbol": "ReactiveComponent.attributedText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/Components/ReactiveComponent+UISwitch.swift",
+      "line": 12,
+      "symbol": "ReactiveComponent.isOn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/Components/ReactiveComponent+UISwitch.swift",
+      "line": 16,
+      "symbol": "ReactiveComponent.isOnAnimated",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/Components/ReactiveComponent+UITextField.swift",
+      "line": 12,
+      "symbol": "ReactiveComponent.text",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/Components/ReactiveComponent+UITextField.swift",
+      "line": 22,
+      "symbol": "ReactiveComponent.attributedText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/Components/ReactiveComponent+UIView.swift",
+      "line": 12,
+      "symbol": "ReactiveComponent.isHidden",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/Components/ReactiveComponent+UIView.swift",
+      "line": 18,
+      "symbol": "ReactiveComponent.alpha",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/ReactiveComponent.swift",
+      "line": null,
+      "symbol": "ReactiveComponent",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/ReactiveComponent.swift",
+      "line": null,
+      "symbol": "ReactiveComponent",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/ReactiveComponent.swift",
+      "line": null,
+      "symbol": "ReactiveComponent",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/ReactiveComponent.swift",
+      "line": null,
+      "symbol": "ReactiveComponent",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/ReactiveComponent.swift",
+      "line": null,
+      "symbol": "ReactiveComponent",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/ReactiveComponent.swift",
+      "line": null,
+      "symbol": "ReactiveComponent",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/ReactiveComponent.swift",
+      "line": null,
+      "symbol": "ReactiveComponent",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/ReactiveComponent.swift",
+      "line": null,
+      "symbol": "ReactiveComponentProvider",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/ReactiveComponent.swift",
+      "line": 10,
+      "symbol": "ReactiveComponentProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/ReactiveComponent.swift",
+      "line": 11,
+      "symbol": "ReactiveComponentProtocol.Component",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/ReactiveComponent.swift",
+      "line": 12,
+      "symbol": "ReactiveComponentProtocol.component",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/ReactiveComponent.swift",
+      "line": 15,
+      "symbol": "ReactiveComponent",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/ReactiveComponent.swift",
+      "line": 16,
+      "symbol": "ReactiveComponent.component",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/ReactiveComponent.swift",
+      "line": 18,
+      "symbol": "ReactiveComponent.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/ReactiveComponent.swift",
+      "line": 30,
+      "symbol": "ReactiveComponentProvider",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/ReactiveComponent.swift",
+      "line": 31,
+      "symbol": "ReactiveComponentProvider.Component",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/ReactiveComponent.swift",
+      "line": 32,
+      "symbol": "ReactiveComponentProvider.reactiveComponent",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/ReactiveComponent.swift",
+      "line": 33,
+      "symbol": "ReactiveComponentProvider.reactiveComponent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/ReactiveComponent.swift",
+      "line": 38,
+      "symbol": "ReactiveComponentProvider.reactiveComponent",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/ReactiveComponents/ReactiveComponent.swift",
+      "line": 42,
+      "symbol": "ReactiveComponentProvider.reactiveComponent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Subjects/Property.swift",
+      "line": 16,
+      "symbol": "Property.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Subjects/Property.swift",
+      "line": 31,
+      "symbol": "Property.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Subjects/Property.swift",
+      "line": 35,
+      "symbol": "Property.subscribe(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Subjects/Property.swift",
+      "line": 60,
+      "symbol": "Property.cancel()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/TestsUtilities/GoReactiveTestCase.swift",
+      "line": 11,
+      "symbol": "GoReactiveTestCase",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/TestsUtilities/GoReactiveTestCase.swift",
+      "line": 13,
+      "symbol": "GoReactiveTestCase.cancelableGroup",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/TestsUtilities/GoReactiveTestCase.swift",
+      "line": 14,
+      "symbol": "GoReactiveTestCase.currentFunctionName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/TestsUtilities/GoReactiveTestCase.swift",
+      "line": 20,
+      "symbol": "GoReactiveTestCase.setUp()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/TestsUtilities/GoReactiveTestCase.swift",
+      "line": 27,
+      "symbol": "GoReactiveTestCase.tearDown()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Utilities/ReferencesTracer.swift",
+      "line": 27,
+      "symbol": "ReferenceTracableObject",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/gorlanczyk/Development/MyProjects/go-reactive"
+}

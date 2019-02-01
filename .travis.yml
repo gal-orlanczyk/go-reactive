@@ -12,11 +12,27 @@ xcode_scheme: GoReactive_Tests
 xcode_sdk: iphonesimulator12.1
 
 before_install:
-  - gem install cocoapods --pre # Since Travis is not always on latest version
+  - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+  - gem install cocoapods --pre --no-rdoc --no-ri --no-document --quiet # Since Travis is not always on latest version
   - pod install --project-directory=Example
-script:
-  - env
-  - set -o pipefail
-  - echo xcodebuild -enableCodeCoverage YES -workspace "$TRAVIS_XCODE_WORKSPACE" -destination "$TRAVIS_XCODE_DESTINATION" -scheme "$TRAVIS_XCODE_SCHEME" -sdk "$TRAVIS_XCODE_SDK" test ONLY_ACTIVE_ARCH=NO | xcpretty -c
-  - xcodebuild -enableCodeCoverage YES -workspace "$TRAVIS_XCODE_WORKSPACE" -destination "$TRAVIS_XCODE_DESTINATION" -scheme "$TRAVIS_XCODE_SCHEME" -sdk "$TRAVIS_XCODE_SDK" test ONLY_ACTIVE_ARCH=NO | xcpretty -c
-  - pod lib lint --verbose
+  
+stages:
+  - test
+  - name: podlint
+    if: type = pull_request
+  - name: docs
+    if: branch = master AND tag IS present
+jobs:
+  include:
+    - stage: test
+      name: "Build+Tests"
+      script:
+        - echo xcodebuild -enableCodeCoverage YES -workspace "$TRAVIS_XCODE_WORKSPACE" -destination "$TRAVIS_XCODE_DESTINATION" -scheme "$TRAVIS_XCODE_SCHEME" -sdk "$TRAVIS_XCODE_SDK" test ONLY_ACTIVE_ARCH=NO | xcpretty -c
+        - xcodebuild -enableCodeCoverage YES -workspace "$TRAVIS_XCODE_WORKSPACE" -destination "$TRAVIS_XCODE_DESTINATION" -scheme "$TRAVIS_XCODE_SCHEME" -sdk "$TRAVIS_XCODE_SDK" test ONLY_ACTIVE_ARCH=NO | xcpretty -c
+    - stage: podlint
+      name: "PodLint"
+      script: if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then pod lib lint --verbose; fi
+    - stage: docs
+      name: Build technical docs
+      script:
+        - bash scripts/build_docs.sh
