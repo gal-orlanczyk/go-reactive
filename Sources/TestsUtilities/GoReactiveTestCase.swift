@@ -11,7 +11,6 @@ import XCTest
 open class GoReactiveTestCase: XCTestCase {
     
     public let cancelableGroup = CancelableGroup()
-    public var currentFunctionName: String?
     
     #if TRACE_REFERENCE_COUNT
     private var startReferenceCount: Int = 0

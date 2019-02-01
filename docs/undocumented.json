@@ -484,41 +484,6 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/TestsUtilities/GoReactiveTestCase.swift",
-      "line": 11,
-      "symbol": "GoReactiveTestCase",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/TestsUtilities/GoReactiveTestCase.swift",
-      "line": 13,
-      "symbol": "GoReactiveTestCase.cancelableGroup",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/TestsUtilities/GoReactiveTestCase.swift",
-      "line": 14,
-      "symbol": "GoReactiveTestCase.currentFunctionName",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/TestsUtilities/GoReactiveTestCase.swift",
-      "line": 20,
-      "symbol": "GoReactiveTestCase.setUp()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/TestsUtilities/GoReactiveTestCase.swift",
-      "line": 27,
-      "symbol": "GoReactiveTestCase.tearDown()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/gorlanczyk/Development/MyProjects/go-reactive/Sources/Utilities/ReferencesTracer.swift",
       "line": 27,
       "symbol": "ReferenceTracableObject",

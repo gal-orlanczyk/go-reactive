@@ -6,5 +6,5 @@ jazzy \
     --clean \
     --readme README.md \
     --podspec GoReactive.podspec \
-    --exclude=/*/Example/* \
+    --exclude=/*/Example/*,Sources/TestsUtilities/* \
     --output docs/
