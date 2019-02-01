@@ -24,5 +24,6 @@ jobs:
         -  echo xcodebuild -enableCodeCoverage YES -workspace "$TRAVIS_XCODE_WORKSPACE" -destination "$TRAVIS_XCODE_DESTINATION" -scheme "$TRAVIS_XCODE_SCHEME" -sdk "$TRAVIS_XCODE_SDK" test ONLY_ACTIVE_ARCH=NO | xcpretty -c
         - xcodebuild -enableCodeCoverage YES -workspace "$TRAVIS_XCODE_WORKSPACE" -destination "$TRAVIS_XCODE_DESTINATION" -scheme "$TRAVIS_XCODE_SCHEME" -sdk "$TRAVIS_XCODE_SDK" test ONLY_ACTIVE_ARCH=NO | xcpretty -c
     - stage: "Pod Lint"
-        - if: type = pull_request
+        - name: Pod Lint
+          if: type = pull_request
           script: if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then pod lib lint --verbose; fi
