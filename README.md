@@ -11,6 +11,10 @@ Should be useful for many day to day tasks without adding too much complexity in
 
 GoReactive doesn't handle events in different threads intentionly, the main point of this framework is to provide great functionality that is easily debugable and lightweight.
 
+[Technical Documentation](https://gal-orlanczyk.github.io/go-reactive/jazzy/index.html)
+
+[Documentation](https://gal-orlanczyk.github.io/go-reactive/Documentation.md)
+
 ## Simple Usage
 
 ```swift
