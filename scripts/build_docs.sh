@@ -7,4 +7,4 @@ jazzy \
     --readme README.md \
     --podspec GoReactive.podspec \
     --exclude=/*/Example/*,Sources/TestsUtilities/* \
-    --output docs/
+    --output docs/jazzy/
