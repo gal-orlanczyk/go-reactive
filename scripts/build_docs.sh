@@ -5,6 +5,6 @@ set -euo pipefail
 jazzy \
     --clean \
     --readme README.md \
-    --podspec GoReactive.podspec \
+    --podspec ../GoReactive.podspec \
     --exclude=/*/Example/*,Sources/TestsUtilities/* \
     --output docs/jazzy/

@@ -8,6 +8,7 @@
 
 import XCTest
 import GoReactive
+import GoReactiveTests
 
 class ObservableContainerTests: GoReactiveTestCase {
 

@@ -1,4 +1,4 @@
-# GoReactive - **Work in Progress**
+# GoReactive
 
 [![Build Status](https://travis-ci.org/gal-orlanczyk/go-reactive.svg?branch=develop)](https://travis-ci.org/gal-orlanczyk/go-reactive)
 [![Version](https://img.shields.io/cocoapods/v/GoReactive.svg?style=flat)](https://cocoapods.org/pods/GoReactive)
@@ -11,11 +11,20 @@ Should be useful for many day to day tasks without adding too much complexity in
 
 GoReactive doesn't handle events in different threads intentionly, the main point of this framework is to provide great functionality that is easily debugable and lightweight.
 
+The reason for developing this framework is that in some places marrying with a big reactive framework can be difficult to maintain, harder for new hires to keep up (steep learning curve) and without the danger of having mistakes or misuse.
+This framework aims to provide a simple solution for most used flows and observing without having to debug multithreaded enviorments, without needing to learn many operators and changing your app architecture. just use where needed without interrupting the app flo and current architecture.
+
+This framework will not get much bigger and have many operators if you need something more complex this is not for you, if you want just simple bindings and observable pattern this framework can be a great candidate.
+
 [Documentation](https://gal-orlanczyk.github.io/go-reactive)
 
 ## Simple Usage
 
 ```swift
+
+import GoReactive
+
+...
 
 class ViewModel {
     let bindableProperty = Property<String?>(nil)

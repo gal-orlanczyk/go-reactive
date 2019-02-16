@@ -8,6 +8,7 @@
 
 import XCTest
 import GoReactive
+import GoReactiveTests
 @testable import GoReactive_Example
 
 class SimpleBindingsViewControllerTests: GoReactiveTestCase {
