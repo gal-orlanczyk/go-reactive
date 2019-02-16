@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import GoReactive
 
 open class GoReactiveTestCase: XCTestCase {
     

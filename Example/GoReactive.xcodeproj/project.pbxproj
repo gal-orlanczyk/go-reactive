@@ -16,13 +16,13 @@
 		0D0E71AC21D6A20A000E4936 /* ReactiveComponentUILabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E71A021D69EE1000E4936 /* ReactiveComponentUILabelTests.swift */; };
 		0D0E71AD21D6A20F000E4936 /* ReactiveComponentUIControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0E719F21D69EE1000E4936 /* ReactiveComponentUIControlTests.swift */; };
 		0D3DB77D21F3305E00F89E59 /* SimpleBindingsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DB77C21F3305E00F89E59 /* SimpleBindingsViewControllerTests.swift */; };
-		30DFF8392A427330D2616C93 /* Pods_GoReactive_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3227A5E200126F55E79470 /* Pods_GoReactive_Tests.framework */; };
+		1C2D28BD0A3B6D977E40302A /* Pods_GoReactive_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC8114A5C63D59A3D58DC1C /* Pods_GoReactive_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* SimpleBindingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* SimpleBindingsViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		F24EA0048CB279ADE5AB02F6 /* Pods_GoReactive_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA0AAB88E275F1F210EDA5D /* Pods_GoReactive_Example.framework */; };
+		FD682F3EB26DDC1472961258 /* Pods_GoReactive_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0900E2AB0D03691D63F11E88 /* Pods_GoReactive_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0900E2AB0D03691D63F11E88 /* Pods_GoReactive_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoReactive_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0E719021D52576000E4936 /* ObservableContainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ObservableContainerTests.swift; path = ObservablesTests/ObservableContainerTests.swift; sourceTree = "<group>"; };
 		0D0E719521D5EB5D000E4936 /* PropertyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PropertyTests.swift; path = Subjects/PropertyTests.swift; sourceTree = "<group>"; };
 		0D0E719F21D69EE1000E4936 /* ReactiveComponentUIControlTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactiveComponentUIControlTests.swift; sourceTree = "<group>"; };
@@ -45,9 +46,7 @@
 		0D0E71A721D69F1A000E4936 /* ReactiveComponentUITextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveComponentUITextFieldTests.swift; sourceTree = "<group>"; };
 		0D0E71A921D69F30000E4936 /* ReactiveComponentUIViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveComponentUIViewTests.swift; sourceTree = "<group>"; };
 		0D3DB77C21F3305E00F89E59 /* SimpleBindingsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SimpleBindingsViewControllerTests.swift; path = AppTests/SimpleBindingsViewControllerTests.swift; sourceTree = "<group>"; };
-		1FA0AAB88E275F1F210EDA5D /* Pods_GoReactive_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoReactive_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B50300CEE8330ECBDAC4E96 /* Pods-GoReactive_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoReactive_Tests.release.xcconfig"; path = "Target Support Files/Pods-GoReactive_Tests/Pods-GoReactive_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5EBE6895DCF229043614BA01 /* Pods-GoReactive_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoReactive_Example.release.xcconfig"; path = "Target Support Files/Pods-GoReactive_Example/Pods-GoReactive_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3C359A2AF874F889D417249E /* Pods-GoReactive_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoReactive_Example.release.xcconfig"; path = "Target Support Files/Pods-GoReactive_Example/Pods-GoReactive_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GoReactive_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoReactive_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,10 +56,11 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* GoReactive_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoReactive_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96FC6C76234DC9712247CEF6 /* Pods-GoReactive_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoReactive_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GoReactive_Tests/Pods-GoReactive_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		650921F01B4E00C454634F30 /* Pods-GoReactive_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoReactive_Example.debug.xcconfig"; path = "Target Support Files/Pods-GoReactive_Example/Pods-GoReactive_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6AC8114A5C63D59A3D58DC1C /* Pods_GoReactive_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoReactive_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2FFFF9D381D22B0C065A983 /* Pods-GoReactive_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoReactive_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GoReactive_Tests/Pods-GoReactive_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C0BBE35957117BA962A7AD93 /* GoReactive.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GoReactive.podspec; path = ../GoReactive.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CC3227A5E200126F55E79470 /* Pods_GoReactive_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoReactive_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D302D0F2486BA5833043BDD0 /* Pods-GoReactive_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoReactive_Example.debug.xcconfig"; path = "Target Support Files/Pods-GoReactive_Example/Pods-GoReactive_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D9433C8CE75B288FA72EA451 /* Pods-GoReactive_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoReactive_Tests.release.xcconfig"; path = "Target Support Files/Pods-GoReactive_Tests/Pods-GoReactive_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F1743021B3D6FE50F3EAAB8E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FA8BFACE3ED4FCF86AC693B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F24EA0048CB279ADE5AB02F6 /* Pods_GoReactive_Example.framework in Frameworks */,
+				FD682F3EB26DDC1472961258 /* Pods_GoReactive_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30DFF8392A427330D2616C93 /* Pods_GoReactive_Tests.framework in Frameworks */,
+				1C2D28BD0A3B6D977E40302A /* Pods_GoReactive_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +130,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				D90A24D2289509CC4FAC237C /* Pods */,
-				FCEB54C2F97F3F36733CDDE9 /* Frameworks */,
+				A7AEDBF6AE21BE999F638F8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -195,24 +195,24 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		A7AEDBF6AE21BE999F638F8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0900E2AB0D03691D63F11E88 /* Pods_GoReactive_Example.framework */,
+				6AC8114A5C63D59A3D58DC1C /* Pods_GoReactive_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D90A24D2289509CC4FAC237C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D302D0F2486BA5833043BDD0 /* Pods-GoReactive_Example.debug.xcconfig */,
-				5EBE6895DCF229043614BA01 /* Pods-GoReactive_Example.release.xcconfig */,
-				96FC6C76234DC9712247CEF6 /* Pods-GoReactive_Tests.debug.xcconfig */,
-				2B50300CEE8330ECBDAC4E96 /* Pods-GoReactive_Tests.release.xcconfig */,
+				650921F01B4E00C454634F30 /* Pods-GoReactive_Example.debug.xcconfig */,
+				3C359A2AF874F889D417249E /* Pods-GoReactive_Example.release.xcconfig */,
+				B2FFFF9D381D22B0C065A983 /* Pods-GoReactive_Tests.debug.xcconfig */,
+				D9433C8CE75B288FA72EA451 /* Pods-GoReactive_Tests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		FCEB54C2F97F3F36733CDDE9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1FA0AAB88E275F1F210EDA5D /* Pods_GoReactive_Example.framework */,
-				CC3227A5E200126F55E79470 /* Pods_GoReactive_Tests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,11 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "GoReactive_Example" */;
 			buildPhases = (
-				5910FF221EEE87C6E7CAEF94 /* [CP] Check Pods Manifest.lock */,
+				9CA93B86B8B63BE827593664 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				CC57DB1B029E54BA8DD1DA4C /* [CP] Embed Pods Frameworks */,
+				754E2F31184EC685318233EA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,11 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "GoReactive_Tests" */;
 			buildPhases = (
-				8EC74F50ECB54D5C2F0524AD /* [CP] Check Pods Manifest.lock */,
+				68F07049A88042EF14E01E28 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				521B30FC3463A6338C1FD77E /* [CP] Embed Pods Frameworks */,
+				E31992B68A674114173D0C1F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -318,51 +318,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		521B30FC3463A6338C1FD77E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GoReactive_Tests/Pods-GoReactive_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GoReactive/GoReactive.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoReactive.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoReactive_Tests/Pods-GoReactive_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5910FF221EEE87C6E7CAEF94 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GoReactive_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8EC74F50ECB54D5C2F0524AD /* [CP] Check Pods Manifest.lock */ = {
+		68F07049A88042EF14E01E28 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -384,7 +340,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CC57DB1B029E54BA8DD1DA4C /* [CP] Embed Pods Frameworks */ = {
+		754E2F31184EC685318233EA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -404,6 +360,52 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoReactive_Example/Pods-GoReactive_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CA93B86B8B63BE827593664 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoReactive_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E31992B68A674114173D0C1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoReactive_Tests/Pods-GoReactive_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoReactive/GoReactive.framework",
+				"${BUILT_PRODUCTS_DIR}/GoReactiveTests/GoReactiveTests.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoReactive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoReactiveTests.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoReactive_Tests/Pods-GoReactive_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -572,7 +574,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D302D0F2486BA5833043BDD0 /* Pods-GoReactive_Example.debug.xcconfig */;
+			baseConfigurationReference = 650921F01B4E00C454634F30 /* Pods-GoReactive_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoReactive/Info.plist;
@@ -588,7 +590,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EBE6895DCF229043614BA01 /* Pods-GoReactive_Example.release.xcconfig */;
+			baseConfigurationReference = 3C359A2AF874F889D417249E /* Pods-GoReactive_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoReactive/Info.plist;
@@ -604,7 +606,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96FC6C76234DC9712247CEF6 /* Pods-GoReactive_Tests.debug.xcconfig */;
+			baseConfigurationReference = B2FFFF9D381D22B0C065A983 /* Pods-GoReactive_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
@@ -630,7 +632,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B50300CEE8330ECBDAC4E96 /* Pods-GoReactive_Tests.release.xcconfig */;
+			baseConfigurationReference = D9433C8CE75B288FA72EA451 /* Pods-GoReactive_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
