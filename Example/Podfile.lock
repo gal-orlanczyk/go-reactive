@@ -1,16 +1,22 @@
 PODS:
   - GoReactive (0.1.0)
+  - GoReactiveTests (0.1.0):
+    - GoReactive
 
 DEPENDENCIES:
   - GoReactive (from `../`)
+  - GoReactiveTests (from `../`)
 
 EXTERNAL SOURCES:
   GoReactive:
     :path: "../"
+  GoReactiveTests:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  GoReactive: 38a2b37de88947b97b659034ea4e8750f608287c
+  GoReactive: 06c7aeb01b730630282f81a3cc237bfc0519239e
+  GoReactiveTests: af6b2cdeaffa1dde84aff3a96821bd16897cc098
 
-PODFILE CHECKSUM: 348804ce2596aab13e7525a376e143962f8ba527
+PODFILE CHECKSUM: 9c0290990f817fc2e71febc9bf01e86561332fca
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.6.0
